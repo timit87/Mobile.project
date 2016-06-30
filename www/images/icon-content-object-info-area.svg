@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="56px" height="56px" viewBox="0 0 56 56" enable-background="new 0 0 56 56" xml:space="preserve">
+<symbol  id="SquareIcon40_3" viewBox="-20 -20 40 40">
+	<polygon opacity="0" fill="#F7AA44" points="20,-20 -20,-20 -20,20 20,20 	"/>
+	<g>
+		<path fill="none" stroke="#F7AA44" stroke-width="2.1896" stroke-linecap="round" stroke-miterlimit="10" d="M-10.07,6.3
+			l-4.636-4.636c-0.628-0.628-0.628-1.646,0-2.274l4.636-4.636"/>
+		<path fill="none" stroke="#F7AA44" stroke-width="2.1896" stroke-linecap="round" stroke-miterlimit="10" d="M9.922-6.291
+			l4.755,5.055c0.644,0.685,0.67,1.795,0.058,2.48L10.218,6.3"/>
+		<path fill="none" stroke="#F7AA44" stroke-width="2.1896" stroke-linecap="round" stroke-miterlimit="10" d="M-5.624-9.701
+			l4.636-4.636c0.628-0.628,1.646-0.628,2.274,0l4.636,4.636"/>
+		<path fill="none" stroke="#F7AA44" stroke-width="2.1896" stroke-linecap="round" stroke-miterlimit="10" d="M6.667,9.553
+			l-5.055,4.755c-0.685,0.644-1.795,0.67-2.48,0.059L-5.923,9.85"/>
+	</g>
+	<path fill="#F7AA44" d="M-0.99,10.324l-9.333-9.333c-0.547-0.547-0.547-1.434,0-1.98l9.333-9.333c0.547-0.547,1.434-0.547,1.98,0
+		l9.333,9.333c0.547,0.547,0.547,1.434,0,1.98L0.99,10.324C0.443,10.87-0.443,10.87-0.99,10.324z"/>
+</symbol>
+<use xlink:href="#SquareIcon40_3"  width="40" height="40" x="-20" y="-20" transform="matrix(1.4 0 0 -1.4 28 28)" overflow="visible"/>
+</svg>

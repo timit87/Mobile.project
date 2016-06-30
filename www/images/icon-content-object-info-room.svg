@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="56px" height="56px" viewBox="0 0 56 56" enable-background="new 0 0 56 56" xml:space="preserve">
+<symbol  id="Rooms_3" viewBox="-20 -20 40 40">
+	<polygon opacity="0" fill="#F7AA44" points="20,-20 -20,-20 -20,20 20,20 	"/>
+	<g>
+		<path fill="#F7AA44" d="M15,7c-1.104,0-2-0.896-2-2V0h-25v5c0,1.104-0.896,2-2,2s-2-0.896-2-2V1v-2v-6c0-1.104,0.896-2,2-2h29
+			c1.104,0,2,0.896,2,2v6v2v4C17,6.104,16.104,7,15,7z"/>
+		<path fill="#F7AA44" d="M-11-10L-11-10c-1.105,0-2,0.895-2,2v6c0,1.105,0.895,2,2,2h0c1.105,0,2-0.895,2-2v-6
+			C-9-9.105-9.895-10-11-10z"/>
+		<path fill="#F7AA44" d="M12-10L12-10c-1.105,0-2,0.895-2,2v6c0,1.105,0.895,2,2,2h0c1.105,0,2-0.895,2-2v-6
+			C14-9.105,13.105-10,12-10z"/>
+		<path fill="#F7AA44" d="M-2,1h-7c-1.105,0-2,0.895-2,2v5c0,1.105,0.895,2,2,2h7c1.105,0,2-0.895,2-2V3C0,1.895-0.895,1-2,1z"/>
+		<path fill="#F7AA44" d="M10,1H3C1.895,1,1,1.895,1,3v5c0,1.105,0.895,2,2,2h7c1.105,0,2-0.895,2-2V3C12,1.895,11.105,1,10,1z"/>
+	</g>
+</symbol>
+<use xlink:href="#Rooms_3"  width="40" height="40" id="XMLID_61_" x="-20" y="-20" transform="matrix(1.4 0 0 -1.4 28 28)" overflow="visible"/>
+</svg>

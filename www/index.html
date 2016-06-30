@@ -14,40 +14,40 @@
 	<body>
 		<div class="l-header">
 			<div class="b-header">
-				<div class="b-header__logo"></div>
+				<a href="#" class="b-header__back"></a>
+				<a href="#" class="b-header__logo"></a>
+				<a href="#" class="b-header__search"></a>
 				<div class="b-header__menu">
-					<a href="#" class="b-header__menu-left"></a>
-					<a href="#" class="b-header__menu-click"></a>
-					<a href="#" class="b-header__menu-search"></a>
+ 					<a href="#" class="b-header__menu-button"></a>
+					<div class="b-header__menu-dropdown-wrap">
+						<ul class="b-header__menu-dropdown">
+							<li class="b-header__menu-dropdown-item m-header__menu-dropdown-item_first"><a href="#">Добавить объект</a></li>
+							<li class="b-header__menu-dropdown-item"><a href="#">Добавить через WhatsApp</a></li>
+							<li class="b-header__menu-dropdown-item"><a href="#">Застройщикам</a></li>
+							<li class="b-header__menu-dropdown-item m-header__menu-dropdown-item_last"><a href="#">Войти</a></li>
+						</ul>
+					</div>	
 				</div>
 			</div>
 		</div>
 		<div class="l-content">
 			<div class="b-content__top">
-				<div class="b-content__top-button-wrap">
-					<a href="#" class="b-content__top-button"></a>
-				</div>	
+				<div class="b-content__top-img"><img src="images/bg-content-top.png" width="100%" height="218"></div>
+				<a href="#" class="b-content__top-button"></a>
 				<div class="b-content__top-pager">
-					<a class="b-content__top-pager-item m-content__top-pager-item_active"></a>
-					<a class="b-content__top-pager-item m-content__top-pager-item_inactive" href="#"></a>
-					<a class="b-content__top-pager-item m-content__top-pager-item_inactive" href="#"></a>
-					<a class="b-content__top-pager-item m-content__top-pager-item_inactive" href="#"></a>
-					<a class="b-content__top-pager-item m-content__top-pager-item_inactive" href="#"></a>
-					<a class="b-content__top-pager-item m-content__top-pager-item_inactive" href="#"></a>
-					<a class="b-content__top-pager-item m-content__top-pager-item_inactive" href="#"></a>
+					<a class="b-content__top-pager-item m-content__top-pager-item_active" href="#"></a>
+					<a class="b-content__top-pager-item" href="#"></a>
+					<a class="b-content__top-pager-item" href="#"></a>
+					<a class="b-content__top-pager-item" href="#"></a>
+					<a class="b-content__top-pager-item" href="#"></a>
+					<a class="b-content__top-pager-item" href="#"></a>
+					<a class="b-content__top-pager-item" href="#"></a>
 				</div>
-				<div class="b-content__top-enter">
-					<ul class="b-content__top-enter-list">
-						<li class="b-content__top-enter-list-item m-content__top-enter-list-item_first">Добавить объект</li>
-						<li class="b-content__top-enter-list-item">Добавить через WhatsApp</li>
-						<li class="b-content__top-enter-list-item">Застройщикам</li>
-						<li class="b-content__top-enter-list-item m-content__top-enter-list-item_last">Войти</li>
-					</ul>
-				</div>
-				<a href="#" class="b-content__top-star"></a>
+				
 			</div>
 			
 			<div class="b-content__object">
+				<a href="#" class="b-content__top-star"></a>
 				<div class="b-content__object-title">4-х комнатная квартира,<br /> мкр Жетысу-3, Саина — Абая</div>
 				<div class="b-content__object-price">
 					<ul class="b-content__object-price-left">
@@ -112,7 +112,7 @@
 						<div class="b-content__object-liked-icon-bottom"></div>
 						<div class="b-content__object-liked-title">Нравится это объявление?</div>
 						<div class="b-content__object-liked-text">Отправьте его себе на почту,<br />чтобы изучить позже</div>
-						<a href="#" class="b-content__object-liked-e-mail">Ваш e-mail...</a>
+						<div class="b-content__object-liked-e-mail"><input type="email" placeholder="Ваш e-mail..." ></div>
 						<a href="#" class="b-content__object-liked-button">Отправить</a>
 					</div>
 				</div>
@@ -120,7 +120,7 @@
 			<div class="b-content__news">
 				<div class="b-content__news-title">Похожие объекты</div>
 				<div class="b-content__news-list m-content__news-list-top">
-					<div class="b-content__news-list-photo m-content__news-list-photo_top"> </div>
+					<div class="b-content__news-list-photo"><img src="images/bg-content-news-photo-top.png" width="105" height="95"></div>
 					<div class="b-content__news-list-info">
 						<li class="b-content__news-list-info-title">2-комнатная квартира, Торайгырова — Каблукова</li>
 						<li class="b-content__news-list-info-text">улица Каблукова, Алматы, Казахстан</li>
@@ -129,7 +129,7 @@
 					</div>
 				</div>
 				<div class="b-content__news-list m-content__news-list-middle">
-					<div class="b-content__news-list-photo m-content__news-list-photo_middle"> </div>
+					<div class="b-content__news-list-photo"><img src="images/bg-content-news-photo-middle.png" width="105" height="95"></div>
 					<div class="b-content__news-list-info">
 						<li class="b-content__news-list-info-title">ЖК Samal Tower</li>
 						<li class="b-content__news-list-info-text">улица Каблукова, Алматы, Казахстан</li>
@@ -138,7 +138,7 @@
 					</div>
 				</div>
 				<div class="b-content__news-list m-content__news-list-bottom">
-					<div class="b-content__news-list-photo m-content__news-list-photo_bottom"> </div>
+					<div class="b-content__news-list-photo"><img src="images/bg-content-news-photo-bottom.png" width="105" height="95"></div>
 					<div class="b-content__news-list-info">
 						<li class="b-content__news-list-info-title">Трехкомнатная квартира в ЖК Овация</li>
 						<li class="b-content__news-list-info-text">улица Каблукова, Алматы, Казахстан</li>
