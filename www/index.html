@@ -6,10 +6,12 @@
 		<meta name="keywords"content=""/>
 		<meta name="description"content=""/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-				
-		<link rel="stylesheet" href="css/bootstrap.css">
+		
+		<link rel="stylesheet" href="css/reset-min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/fonts.css">
+		
+		<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
 	</head>
 	<body>
 		<div class="l-header">
@@ -34,7 +36,7 @@
 			<div class="b-content__top">
 				<div class="b-content__top-img"><img src="images/bg-content-top.png"></div>
 				<a href="#" class="b-content__top-button"></a>
-				<div class="b-content__top-pager">
+				<p class="b-content__top-pager">
 					<a class="b-content__top-pager-item m-content__top-pager-item_active" href="#"></a>
 					<a class="b-content__top-pager-item" href="#"></a>
 					<a class="b-content__top-pager-item" href="#"></a>
@@ -42,17 +44,19 @@
 					<a class="b-content__top-pager-item" href="#"></a>
 					<a class="b-content__top-pager-item" href="#"></a>
 					<a class="b-content__top-pager-item" href="#"></a>
-				</div>
+				</p>
 				
 			</div>
 			
 			<div class="b-content__object">
+				<p class="b-content__top-star-message">Добавлено в избранное</p>
+				<a href="#" class="b-content__top-star-click"></a>
 				<a href="#" class="b-content__top-star"></a>
-				<div class="b-content__object-title">4-х комнатная квартира,<br /> мкр Жетысу-3, Саина — Абая</div>
+				<h2 class="b-content__object-title">4-х комнатная квартира,<br /> мкр Жетысу-3, Саина — Абая</h2>
 				<div class="b-content__object-price">
 					<ul class="b-content__object-price-left">
-						<li class="b-content__object-price-left-top">31 125 000 тг</li>
-						<li class="b-content__object-price-left-bottom">370 536 тг/м2</li>
+						<li class="b-content__object-price-left-top"><h1>31 125 000 тг</h1></li>
+						<li class="b-content__object-price-left-bottom"><h4>370 536 тг/м2</h4></li>
 					</ul>
 					<ul class="b-content__object-price-right">
 						<li class="b-content__object-price-right-top">Опубликовано</li>
@@ -83,19 +87,17 @@
 							<p>Отличная планировка, потолки высотой 288 см. Система «теплый пол». Изготовленная на заказ </p>
 						</div>
 					</div>
-					<div class="b-content__object-discr-text-button-wrap">
+					<p class="b-content__object-discr-text-button-wrap">
 						<a href="#" class="b-content__object-discr-text-button"></a>
-					</div>
-					<div class="b-content__object-discr-list-wrap">
-						<ul class="b-content__object-discr-list">
-							<li class="b-content__object-discr-list-item">Собственный гараж</li>
-							<li class="b-content__object-discr-list-item">Ремонт менее года</li>
-							<li class="b-content__object-discr-list-item">Новая мебель</li>
-							<li class="b-content__object-discr-list-item">Энергосбережение</li>
-							<li class="b-content__object-discr-list-item">Охрана здания</li>
-							<li class="b-content__object-discr-list-item">Новая мебель</li>
-						</ul>
-					</div>
+					</p>
+					<ul class="b-content__object-discr-list">
+						<li class="b-content__object-discr-list-item">Собственный гараж</li>
+						<li class="b-content__object-discr-list-item">Ремонт менее года</li>
+						<li class="b-content__object-discr-list-item">Новая мебель</li>
+						<li class="b-content__object-discr-list-item">Энергосбережение</li>
+						<li class="b-content__object-discr-list-item">Охрана здания</li>
+						<li class="b-content__object-discr-list-item">Новая мебель</li>
+					</ul>
 					<div class="b-content__object-discr-region">
 						<div class="b-content__object-discr-title">Описание района</div>
 						<div class="b-content__object-discr-region-text">Хороший район, прямой выход на проспект Кабанбай батыра делает удобной поездку как за город или в аэропорт, так и в административно-деловой центр столицы. Развитая инфраструктура района: школа во дворе дома, рядом 4 детский садика, в паре минут езды — ТРЦ «Азия Парк», Байтерек, стадион «Астана Арена».</div>
@@ -103,25 +105,23 @@
 				</div>
 				<div class="b-content__object-liked">
 					<div class="b-content__object-liked-top">
-						<div class="b-content__object-liked-icon-top"></div>
-						<div class="b-content__object-liked-title">Добавить в избранное</div>
+						<h4 class="b-content__object-liked-title">Добавить в избранное</h4>
 						<div class="b-content__object-liked-text">Избранное – это коллекция объектов, которые вам понравились</div>
-						<a href="#" class="b-content__object-liked-button">Добавить в избранное</a>
+						<a href="#" class="b-content__object-liked-button"><h4>Добавить в избранное</h4></a>
 					</div>
 					<div class="b-content__object-liked-bottom">
-						<div class="b-content__object-liked-icon-bottom"></div>
-						<div class="b-content__object-liked-title">Нравится это объявление?</div>
+						<h4 class="b-content__object-liked-title">Нравится это объявление?</h4>
 						<div class="b-content__object-liked-text">Отправьте его себе на почту,<br />чтобы изучить позже</div>
-						<div class="b-content__object-liked-e-mail"><input type="email" placeholder="Ваш e-mail..." >
-						<a href="#" class="b-content__object-liked-button">Отправить</a>
-						</div>
+						<h4 class="b-content__object-liked-e-mail"><input type="email" placeholder="Ваш e-mail..." >
+						<a href="#" class="b-content__object-liked-button"><h4>Отправить</h4></a>
+						</h4>
 					</div>
 				</div>
 			</div>
 			<div class="b-content__news">
-				<div class="b-content__news-title">Похожие объекты</div>
+				<h2 class="b-content__news-title">Похожие объекты</h2>
 				<a href="#" class="b-content__news-list">
-					<div class="b-content__news-list-photo"><img src="images/bg-content-news-photo-top.png" width="105" height="95"></div>
+					<img src="images/bg-content-news-photo-top.png">
 					<ul class="b-content__news-list-info">
 						<li class="b-content__news-list-info-title">2-комнатная квартира, Торайгырова — Каблукова</li>
 						<li class="b-content__news-list-info-text">улица Каблукова, Алматы, Казахстан</li>
@@ -130,7 +130,7 @@
 					</ul>
 				</a>
 				<a href="#" class="b-content__news-list">
-					<div class="b-content__news-list-photo"><img src="images/bg-content-news-photo-middle.png" width="105" height="95"></div>
+					<img src="images/bg-content-news-photo-middle.png">
 					<ul class="b-content__news-list-info">
 						<li class="b-content__news-list-info-title">ЖК Samal Tower</li>
 						<li class="b-content__news-list-info-text">улица Каблукова, Алматы, Казахстан</li>
@@ -139,7 +139,7 @@
 					</ul>
 				</a>
 				<a href="#" class="b-content__news-list">
-					<div class="b-content__news-list-photo"><img src="images/bg-content-news-photo-bottom.png" width="105" height="95"></div>
+					<img src="images/bg-content-news-photo-bottom.png">
 					<ul class="b-content__news-list-info">
 						<li class="b-content__news-list-info-title">Трехкомнатная квартира в ЖК Овация</li>
 						<li class="b-content__news-list-info-text">улица Каблукова, Алматы, Казахстан</li>
@@ -152,39 +152,42 @@
 		<div class="l-footer">
 			<div class="b-footer">
 				<div class="b-footer__content">
-					<div class="b-footer__content-title">О компании</div>
+					<h3 class="b-footer__content-title">О компании</h3>
 					<ul class="b-footer__content-list">
-						<a href="#" class="b-footer__content-inner-text-list-item">О Homsters</a>
-						<a href="#" class="b-footer__content-inner-text-list-item">Блог</a>
-						<a href="#" class="b-footer__content-inner-text-list-item">Медиа</a>
-						<a href="#" class="b-footer__content-inner-text-list-item">Связаться с нами</a>
+						<li class="b-footer__content-inner-text-list-item"><a href="#">О Homsters</a></li>
+						<li class="b-footer__content-inner-text-list-item"><a href="#">Блог</a></li>
+						<li class="b-footer__content-inner-text-list-item"><a href="#">Медиа</a></li>
+						<li class="b-footer__content-inner-text-list-item"><a href="#">Связаться с нами</a></li>
 					</ul>
 				</div>
 				<div class="b-footer__content">
-					<div class="b-footer__content-title">Недвижимость в Казахстане</div>
+					<h3 class="b-footer__content-title">Недвижимость в Казахстане</h3>
 					<ul class="b-footer__content-list">
-						<a href="#" class="b-footer__content-inner-text-list-item">Продажа квартир</a>
-						<a href="#" class="b-footer__content-inner-text-list-item">Подажа дач</a>
-						<a href="#" class="b-footer__content-inner-text-list-item">Продажа домов</a>
-						<a href="#" class="b-footer__content-inner-text-list-item">Продажа участков</a>
+						<li class="b-footer__content-inner-text-list-item"><a href="#">Продажа квартир</a></li>
+						<li class="b-footer__content-inner-text-list-item"><a href="#">Подажа дач</a></li>
+						<li class="b-footer__content-inner-text-list-item"><a href="#">Продажа домов</a></li>
+						<li class="b-footer__content-inner-text-list-item"><a href="#">Продажа участков</a></li>
 					</ul>
 				</div>
 				<div class="b-footer__content">
-					<div class="b-footer__content-title">Недвижимость в городах</div>
+					<h3 class="b-footer__content-title">Недвижимость в городах</h3>
 					<ul class="b-footer__content-list">
-						<a href="#" class="b-footer__content-inner-text-list-item">Астана</a>
-						<a href="#" class="b-footer__content-inner-text-list-item">Шымкент</a>
-						<a href="#" class="b-footer__content-inner-text-list-item">Алматы</a>
-						<a href="#" class="b-footer__content-inner-text-list-item">Караганда</a>
+						<li class="b-footer__content-inner-text-list-item"><a href="#">Астана</a></li>
+						<li class="b-footer__content-inner-text-list-item"><a href="#">Шымкент</a></li>
+						<li class="b-footer__content-inner-text-list-item"><a href="#">Алматы</a></li>
+						<li class="b-footer__content-inner-text-list-item"><a href="#">Караганда</a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="b-footer__content-listfull"><a href="#">ЖК Royal Gardens</a> | <a href="#">ЖК Мирный</a> | <a href="#">ЖК Симфония</a> | <a href="#">ЖК Весновка</a> | <a href="#">ЖК Весна</a> | <a href="#">ЖК Евразия</a> | <a href="#">Жилой комплекс DeVille ЖК Алатау</a> | <a href="#">ЖК Apple Town</a> | <a href="#">ЖК Ile de France</a> | <a href="#">ЖК Айсулу</a> | <a href="#">ЖК Ак Алем</a> | <a href="#">КГ Амани</a> | <a href="#">ЖК Exclusive Resi-dence</a><br />
-				<a href="#">ЖК Панорама</a> | <a href="#">ЖК Тау Шатыр</a> | <a href="#">ЖК Koktobe city</a> | <a href="#">ЖК Жеруйык</a> | <a href="#">ЖК Европолис</a> | <a href="#">ЖК Samal Tower</a> | <a href="#">ЖК Ак Жол-Отау ЖК Арай</a> | <a href="#">ЖК Cordial</a> | <a href="#">Клубный дом Нур Тобе</a> | <a href="#">ЖК Zodiac</a> | <a href="#">ЖК Комфорт Плюс</a> | <a href="#">ЖК Сары Арқа</a> | <a href="#">КГ</a>
+			<div class="b-footer__content-listfull"><a href="#">ЖК Royal Gardens</a><a href="#">ЖК Мирный</a><a href="#">ЖК Симфония</a><a href="#">ЖК Весновка</a><a href="#">ЖК Весна</a><a href="#">ЖК Евразия</a><a href="#">Жилой комплекс DeVille ЖК Алатау</a><a href="#">ЖК Apple Town</a><a href="#">ЖК Ile de France</a><a href="#">ЖК Айсулу</a><a href="#">ЖК Ак Алем</a><a href="#">КГ Амани</a><a href="#" class="m-footer__content-listfull_last">ЖК Exclusive Resi-dence</a><br />
+				<a href="#">ЖК Панорама</a><a href="#">ЖК Тау Шатыр</a><a href="#">ЖК Koktobe city</a><a href="#">ЖК Жеруйык</a><a href="#">ЖК Европолис</a><a href="#">ЖК Samal Tower</a><a href="#">ЖК Ак Жол-Отау ЖК Арай</a><a href="#">ЖК Cordial</a><a href="#">Клубный дом Нур Тобе</a><a href="#">ЖК Zodiac</a><a href="#">ЖК Комфорт Плюс</a><a href="#">ЖК Сары Арқа</a><a href="#">КГ</a>
 			</div>
 			<div class="b-footer__content-info"><a href="#"><span class="m-footer__content-info_color">homsters.kz is owned and operated by</span> Prof.Estate Условия и положения</a></div>
-			<a href="#" class="b-footer__content-connect">Связаться с брокером</a>
+			<a href="#" class="b-footer__content-connect"><h4>Связаться с брокером</h4></a>
 		</div>
+		
+		<script type="text/javascript" src="js/script.js"></script>
+		
 	</body>
 </html>
 
