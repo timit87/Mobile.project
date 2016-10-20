@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<meta charset="utf-8">
+		<meta charset="utf-8" />
 		<title>Верстка страницы для мобильных устройств</title>
 		<meta name="keywords"content=""/>
 		<meta name="description"content=""/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		
-		<link rel="stylesheet" href="css/reset-min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/fonts.css">
+		<link rel="stylesheet" href="css/reset-min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/fonts.css" />
 		
 		<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
 	</head>
@@ -18,22 +18,29 @@
 			<div class="b-header">
 				<a href="#" class="b-header__back"></a>
 				<a href="#" class="b-header__logo"></a>
-				<a href="#" class="b-header__search"></a>
+				<a href="#" class="b-header__search"><input class="b-header__search-input" type="text"></a>
 				<div class="b-header__menu">
  					<a href="#" class="b-header__menu-button"></a>
 					<div class="b-header__menu-dropdown-wrap">
-						<ul class="b-header__menu-dropdown">
-							<li class="b-header__menu-dropdown-item m-header__menu-dropdown-item_first"><a href="#">Добавить объект</a></li>
-							<li class="b-header__menu-dropdown-item"><a href="#">Добавить через WhatsApp</a></li>
-							<li class="b-header__menu-dropdown-item"><a href="#">Застройщикам</a></li>
-							<li class="b-header__menu-dropdown-item m-header__menu-dropdown-item_last"><a href="#">Войти</a></li>
-						</ul>
+						<p class="b-header__menu-dropdown">
+							<a class="b-header__menu-dropdown-item m-header__menu-dropdown-item_active" href="#">Добавить объект</a>
+							<a class="b-header__menu-dropdown-item" href="#">Добавить через WhatsApp</a>
+							<a class="b-header__menu-dropdown-item" href="#">Застройщикам</a>
+							<a class="b-header__menu-dropdown-item" href="#">Войти</a>
+						</p>
 					</div>	
 				</div>
 			</div>
 		</div>
 		<div class="l-content">
 			<div class="b-content__top">
+				<div class="b-content__top-img"><img src="images/bg-content-top.png"></div>
+				<div class="b-content__top-img"><img src="images/bg-content-top_2.png"></div>
+				<div class="b-content__top-img"><img src="images/bg-content-top_3.png"></div>
+				<div class="b-content__top-img"><img src="images/bg-content-top_4.png"></div>
+				<div class="b-content__top-img"><img src="images/bg-content-top_5.png"></div>
+				<div class="b-content__top-img"><img src="images/bg-content-top_6.png"></div>
+				<div class="b-content__top-img"><img src="images/bg-content-top_7.png"></div>
 				<div class="b-content__top-img"><img src="images/bg-content-top.png"></div>
 				<a href="#" class="b-content__top-button"></a>
 				<p class="b-content__top-pager">
@@ -45,13 +52,14 @@
 					<a class="b-content__top-pager-item" href="#"></a>
 					<a class="b-content__top-pager-item" href="#"></a>
 				</p>
-				
 			</div>
 			
 			<div class="b-content__object">
-				<p class="b-content__top-star-message">Добавлено в избранное</p>
-				<a href="#" class="b-content__top-star-click"></a>
-				<a href="#" class="b-content__top-star"></a>
+				<div class="b-content__object-star">
+					<p class="b-content__object-star-message">Добавлено в избранное</p>
+					<p class="b-content__object-star-message m-content__object-star-message_click">Удалено из избранного</p>
+					<a href="#" class="b-content__object-star-button"></a>
+				</div>
 				<h2 class="b-content__object-title">4-х комнатная квартира,<br /> мкр Жетысу-3, Саина — Абая</h2>
 				<div class="b-content__object-price">
 					<ul class="b-content__object-price-left">
@@ -112,7 +120,7 @@
 					<div class="b-content__object-liked-bottom">
 						<h4 class="b-content__object-liked-title">Нравится это объявление?</h4>
 						<div class="b-content__object-liked-text">Отправьте его себе на почту,<br />чтобы изучить позже</div>
-						<h4 class="b-content__object-liked-e-mail"><input type="email" placeholder="Ваш e-mail..." >
+						<h4 class="b-content__object-liked-e-mail"><input type="text" placeholder="Ваш e-mail..." >
 						<a href="#" class="b-content__object-liked-button"><h4>Отправить</h4></a>
 						</h4>
 					</div>
@@ -183,9 +191,24 @@
 				<a href="#">ЖК Панорама</a><a href="#">ЖК Тау Шатыр</a><a href="#">ЖК Koktobe city</a><a href="#">ЖК Жеруйык</a><a href="#">ЖК Европолис</a><a href="#">ЖК Samal Tower</a><a href="#">ЖК Ак Жол-Отау ЖК Арай</a><a href="#">ЖК Cordial</a><a href="#">Клубный дом Нур Тобе</a><a href="#">ЖК Zodiac</a><a href="#">ЖК Комфорт Плюс</a><a href="#">ЖК Сары Арқа</a><a href="#">КГ</a>
 			</div>
 			<div class="b-footer__content-info"><a href="#"><span class="m-footer__content-info_color">homsters.kz is owned and operated by</span> Prof.Estate Условия и положения</a></div>
-			<a href="#" class="b-footer__content-connect"><h4>Связаться с брокером</h4></a>
+			<div class="b-footer__content-connect">
+				
+				<div class="b-footer_popup">
+					<a href="#" class="b-footer_popup-close"><img src="images/icon-footer-popup-close.png"></a>
+					<div class="b-footer_popup-face"><img src="images/icon-footer-popup-face.png"></div>
+					<h3 class="b-footer_popup-title">Связаться с брокером</h3>
+					<p class="b-footer_popup-text">Иван Иванович Карамыглы (брокер)<br />знает все детали этого обьекта и<br />пркоонсультирует вас</p>
+					<h4 class="b-footer_popup-input"><input type="text" placeholder="Имя"></h4>
+					<h4 class="b-footer_popup-input"><input type="text" placeholder="E-mail"></h4>
+					<h4 class="b-footer_popup-input"><input type="text" placeholder="Телефон"></h4>
+					<a href="#" class="b-footer_popup-button">Отправить запрос</a>
+					<a href="#" class="b-footer_popup-complaint">Пожаловаться</a>
+				</div>
+				<a href="#" class="b-footer__content-connect-button"><h4>Связаться с брокером</h4></a>
+			</div>
+			
 		</div>
-		
+			
 		<script type="text/javascript" src="js/script.js"></script>
 		
 	</body>
