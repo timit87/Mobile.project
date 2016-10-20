@@ -1,3 +1,7 @@
+body.wide {
+	overflow: hidden;
+}
+
 .l-header {
 	height:50px;
 	width:100%;
@@ -85,6 +89,7 @@
 				top: 64px;
 				width:205px;
 				height:165px;
+				pointer-events: none;
 				background-color: #FFFFFF;
 				border-radius: 10px;
 				box-shadow: 3px 6px 6px 0px rgba(50, 50, 50, 0.5);
@@ -118,6 +123,7 @@
 						}
 			.m-header__menu-click .b-header__menu-dropdown-wrap {
 				opacity:1;
+				pointer-events: auto;
 			}
 
 .l-content{
@@ -126,19 +132,31 @@
 }
 	.b-content__top {
 		width:100%;
-		height:218px;
+		height: 218px;
 	}
 		.b-content__top-img {
 			position:absolute;
 			width:100%;
-			transition:opacity .2s ease;
+			opacity: 0;
+			transition: opacity .2s ease;
 		}
+			.show.b-content__top-img {
+				opacity: 1;
+			}
 			.b-content__top-img  img{
 				object-fit: cover;
 				height: 218px;
 				width: 100%;
 			}
-			
+			.wide .b-content__top-img {
+				top: 0;
+				bottom: 0;
+				z-index: 1000;
+			}
+							
+			.wide .b-content__top-img img {
+				height: 100vh;
+			}
 		.b-content__top-button {
 			position:absolute;
 			height: 28px;
